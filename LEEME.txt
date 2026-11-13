@@ -1,0 +1,14 @@
+MSC-LEXBOX - App instalable (PWA)
+
+Para instalarla en el celular hay que alojar estos archivos en una página web con https.
+Opción gratuita: GitHub Pages.
+1. Crea un repositorio público en GitHub (ej. msc-lexbox).
+2. Sube TODOS los archivos de esta carpeta (index.html, manifest.webmanifest, sw.js y los íconos .png).
+3. En el repositorio: Settings > Pages > Source: "Deploy from a branch" > rama main, carpeta / (root) > Save.
+4. Espera 1-2 minutos. Tu app quedará en https://TU-USUARIO.github.io/msc-lexbox/
+5. En el celular abre ese enlace:
+   - Android (Chrome): menú ⋮ > "Instalar aplicación" o "Agregar a pantalla principal".
+   - iPhone (Safari): botón Compartir > "Agregar a pantalla de inicio".
+La primera vez que la abras con internet queda guardada y luego funciona SIN conexión.
+
+Para actualizar normas: reemplaza index.html por la nueva versión y sube el número de versión (msc-lexbox-v3 → v4) en sw.js.
